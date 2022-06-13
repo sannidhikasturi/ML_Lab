@@ -28,7 +28,7 @@ def train(concepts, target):
                     specific_h[x] ='?'                     
                     general_h[x][x] ='?'
         #negative example           
-        if target[i] == "no":            
+        if target[i] == "no":             
             print("Instance is Negative ")
             for x in range(len(specific_h)): 
                 if val[x]!= specific_h[x]:                    
