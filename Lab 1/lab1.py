@@ -13,5 +13,4 @@ for x in a:
         msh[i]=x[i]
       else:
         msh[i]='?'
-
 print(msh)
